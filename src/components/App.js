@@ -1,14 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Counter from './Counter';
-
-const propTypes = {
-
-};
-
-
-const defaultProps = {
-
-};
 
 export default class App extends Component {
     constructor(props) {
@@ -21,6 +12,3 @@ export default class App extends Component {
         );
     }
 }
-
-App.propTypes = propTypes;
-App.defaultProps = defaultProps;
